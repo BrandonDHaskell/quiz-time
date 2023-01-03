@@ -1,0 +1,47 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* header formatting */
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.highscore {
+    text-align: center;
+    padding: 20px;
+}
+
+.timer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Q&A formatting */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewscreen {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 75%;
+    height: 500px;
+    text-align: center;
+}
+
+#yes-no-feedback {
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+}
