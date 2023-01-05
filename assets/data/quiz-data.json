@@ -2,85 +2,85 @@
     "JavaScript": [
         {
             "question": "Question 1 here",
-            "answerOptions": {
+            "choices": {
                 "a1": { 
-                    "answerText": "Answer 1",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "answerText": "Answer 2",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "answerText": "Answer 3",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "answerText": "Answer 4",
-                    "yes-no-data": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         },
         {
             "question": "Question 2 here",
-            "answerOptions": {
+            "choices": {
                 "a1": { 
-                    "answerText": "Answer 1",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "answerText": "Answer 2",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "answerText": "Answer 3",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "answerText": "Answer 4",
-                    "yes-no-data": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         },
         {
             "question": "Question 3 here",
-            "answerOptions": {
+            "choices": {
                 "a1": { 
-                    "answerText": "Answer 1",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "answerText": "Answer 2",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "answerText": "Answer 3",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "answerText": "Answer 4",
-                    "yes-no-data": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         },
         {
             "question": "Question 4 here",
-            "answerOptions": {
+            "choices": {
                 "a1": { 
-                    "answerText": "Answer 1",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "answerText": "Answer 2",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "answerText": "Answer 3",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "answerText": "Answer 4",
-                    "yes-no-data": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         }
@@ -89,85 +89,85 @@
     "HTML": [
         {
             "question": "Question 1 here",
-            "answerOptions": {
+            "choices": {
                 "a1": { 
-                    "answerText": "Answer 1",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "answerText": "Answer 2",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "answerText": "Answer 3",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "answerText": "Answer 4",
-                    "yes-no-data": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         },
         {
             "question": "Question 2 here",
-            "answerOptions": {
+            "choices": {
                 "a1": { 
-                    "answerText": "Answer 1",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "answerText": "Answer 2",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "answerText": "Answer 3",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "answerText": "Answer 4",
-                    "yes-no-data": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         },
         {
             "question": "Question 3 here",
-            "answerOptions": {
+            "choices": {
                 "a1": { 
-                    "answerText": "Answer 1",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "answerText": "Answer 2",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "answerText": "Answer 3",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "answerText": "Answer 4",
-                    "yes-no-data": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         },
         {
             "question": "Question 4 here",
-            "answerOptions": {
+            "choices": {
                 "a1": { 
-                    "answerText": "Answer 1",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "answerText": "Answer 2",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "answerText": "Answer 3",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "answerText": "Answer 4",
-                    "yes-no-data": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         }

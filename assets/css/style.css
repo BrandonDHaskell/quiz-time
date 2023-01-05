@@ -48,3 +48,8 @@ main {
     border-color: green;
     border-style: solid;
 }
+
+button {
+    padding: 10px;
+    margin: 10px;
+}
