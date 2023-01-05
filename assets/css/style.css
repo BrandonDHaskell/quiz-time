@@ -36,7 +36,7 @@ main {
 
 .viewscreen {
     border-width: 2px;
-    border-color: black;
+    border-color:#c0c0c0;
     border-style: solid;
     width: 75%;
     height: 500px;

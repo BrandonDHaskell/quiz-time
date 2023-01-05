@@ -1,20 +1,49 @@
 const instructionsText = "Welcome to Quiz Time.  Select the category below and start taking your quiz.  Your score is based on the number of questions you answer correctly and the total time left.  Questions are randomly displayed so chose wisely. ;)"
-const qTime = 5; // sets the timer to qTime seconds per question
+const qTime = 5;                        // sets the timer to qTime seconds per question
 
-var quizData = {};
-var quizArray = [];
-var viewscreenEl = $(".viewscreen");
-var answerDiv;
-var questionEl;
-var timerIntervalId = 0;
+var quizData = {};                      // JSON data
+var quizArray = [];                     // array of questions to quiz the user
+var viewscreenEl = $(".viewscreen");    // reference to the view screen element
+var questionEl;                         // placeholder reference for the question element
+var answerDiv;                          // placeholder reference for the answer element
+var timerIntervalId = 0;                // for stopping the interval call for the quiz timer
+var quizActive = false;                 // used to prevent access to high scores when quiz is running
+var quizCategory = "";                  // selected category of questions
+var quizQuestion = 0;                   // for index references to the quizArray
+var correctCount = 0;                   // for tracking correctly answered questions
+var timerCount = 0;                     // for timing the quiz
 
-var quizActive = false;  // used to prevent access to high scores when quiz is running
-var quizCategory = "";
-var quizQuestion = 0;
-var correctCount = 0;
-var timerCount = 0;
+
+function getHighScoreInputForm(){
+    var formEl = $('<form>');
+    var inputText = $('<input>');
+    var inputButton = $('<input>');
+
+    inputText.prop('type', 'text');
+    inputButton.prop('value', 'Submit');
+    inputButton.prop('type', 'submit');
 
 
+    formEl.append(inputText);
+    formEl.append(inputButton);
+    // formEl.on('submit', storeHighScore);
+
+    return formEl;
+}
+
+function displayHighScoreEntry(){
+    var headerEl = $('<h2>');
+    var promptEl = $('<h3>');
+    var formEl = getHighScoreInputForm();
+
+    headerEl.text("High Score!");
+    promptEl.text("Enter your initials...");
+    viewscreenEl.append(headerEl);
+    viewscreenEl.append(promptEl);
+    viewscreenEl.append(formEl);
+    console.log("Time: " + timerCount);
+    console.log("Correct: " + correctCount);
+}
 
 function clearViewscreen(){
     viewscreenEl.html("");
@@ -43,7 +72,10 @@ function advanceQuiz(){
         viewscreenEl.append(answerDiv);
         quizQuestion++;
     } else {
+        clearInterval(timerIntervalId);
         clearViewscreen();
+
+        displayHighScoreEntry();
     }
 }
 
@@ -147,6 +179,7 @@ function startQuiz(){
     quizQuestion = 0;
     setTimer(timerCount);
     timerIntervalId = setInterval(runTimer, 1000);
+    quizActive = true;
     advanceQuiz();
 }
 
@@ -156,22 +189,21 @@ function displayWelcomeScreen(){
     var btnDiv = getCatButtonDiv();
     var categories = Object.keys(quizData);
 
+    welcomeTitle.addClass("welcome-title");
+
     // Build category selection buttons
     for(cat in categories){
         btnDiv.append(getButton(categories[cat]));
     }
 
-    welcomeTitle.addClass("welcome-title");
     viewscreenEl.append(welcomeTitle);
     viewscreenEl.append(instructionsEl);
     viewscreenEl.append(btnDiv);
 }
 
-function initQuiz(){
+function initQuizTime(){
     clearViewscreen();
     displayWelcomeScreen();
-    // setTimer(10);
-    // timerIntervalId = setInterval(runTimer, 1000);
 }
 
 function getQuizData(url, callback){
@@ -181,4 +213,4 @@ function getQuizData(url, callback){
         .then(() => callback());
 }
 
-getQuizData("./assets/data/quiz-data.json", initQuiz);
+getQuizData("./assets/data/quiz-data.json", initQuizTime);
