@@ -2,12 +2,11 @@
 
 Welcome to Quiz Time!  Feel free to try it out at the deployed site below.  Once the page loads, select a category and take your quiz.  You can even record your score to share with friends or track your progress.
 
-Also, if your curious and want to experiment with alternative quiz data, open up your dev console and run the following to update your quiz on the fly:
+Also, if your curious and want to experiment with alternative quiz data, open up your dev console and run the following to update your quiz data on the fly:
 
 ```javascript
-getQuizData("./assets/data/dummy-data.json", initQuizTime)
+getQuizData("./assets/data/quiz2-data.json", initQuizTime)
 ```
-(With the dummy data, all answers are keyed to the question number, e.g., Q1 = A1, Q2 = A2, etc.)
 
 Test your knowledge with Quiz Time!
 
@@ -137,12 +136,12 @@ scoreObj = {
 
 To use Quiz Time, just navigate to the [Live Site](https://bhaskell7901.github.io/quiz-time/).  Once the page loads, select the Quiz Category of questions and take your quiz.  Once the quiz is complete, enter your score to track any improvements.  High scores can be reviewed when not taking a quiz by clicking on the High Scores link.
 
-To update the quiz questions and categories, run the following in your web console:
+To update the quiz questions and categories to new categories, run the following in your web console:
 ```javascript
-getQuizData("./assets/data/dummy-data.json", initQuizTime)
+getQuizData("./assets/data/quiz2-data.json", initQuizTime)
 ```
 
-Right now, there is only dummy data avialble.  Future updates will include additional quiz data and categories.  To revert back to the default quiz data, run the following:
+To revert back to the default quiz data, run the following:
 ```javascript
 getQuizData("./assets/data/quiz-data.json", initQuizTime)
 ```
