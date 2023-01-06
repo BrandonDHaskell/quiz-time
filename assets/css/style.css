@@ -12,6 +12,12 @@ nav {
     justify-content: space-between;
 }
 
+h1 {
+    color: #1e5720;
+    font-size: 24pt;
+    padding: 12px;
+}
+
 .highscore {
     text-align: center;
     padding: 20px;
@@ -22,7 +28,44 @@ nav {
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    padding: 20px;
+    margin: 20px;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h2 {
+    color: #2e8230;
+    font-size: 20pt;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h3 {
+    color: #44c348;
+    padding: 30px;
+}
+
+p {
+    margin: 20px;
+    color: #44c348;
+    font-size: 14pt;
+}
+
+.ans-btn {
+    text-align: left;
+    width: 200px;
+
+}
+
+#initials {
+    margin: 10px;
 }
 
 /* Q&A formatting */
@@ -34,9 +77,37 @@ main {
     align-items: center;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 1px;
+    border-color: #0f2b10;
+    border-style: solid;
+}
+
+th {
+    color: #2e8230;
+    padding: 5px;
+    text-align: left;
+    border: 2px;
+    border-color: #0f2b10;
+    border-style: solid;
+}
+
+td {
+    color: #44c348;
+    text-align: left;
+    padding-left: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #edfbee;
+}
+
 .viewscreen {
     border-width: 2px;
-    border-color:#c0c0c0;
+    border-color:#c9f4cb;
     border-style: solid;
     width: 75%;
     height: 500px;
@@ -50,6 +121,9 @@ main {
 }
 
 button {
+    color: #266d28;
     padding: 10px;
     margin: 10px;
+    max-width: 200px;
+    width: 120px;
 }

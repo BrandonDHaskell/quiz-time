@@ -2,7 +2,7 @@ const instructionsText = "Welcome to Quiz Time.  Select the category below and s
 const qTime = 8;                        // sets the timer to qTime seconds per question
 const qTimePenalty = 4;                 // reduces the timer by qTimePenalty when an incorrect
 
-var quizData = {};                      // JSON data
+var quizData = {};                      // JSON data as an object
 var quizArray = [];                     // temp array of questions to quiz the user
 var viewscreenEl = $(".viewscreen");    // reference to the view screen element
 var questionEl;                         // placeholder reference for the question element
@@ -55,7 +55,6 @@ function getHighScoreInputForm(){
         let regPattern = /^[a-zA-z]{2,3}$/;
 
         event.preventDefault();
-        document.prevent
         if( regPattern.test(initials) ){
             var scoreObj = getScoreObject(initials );
             addHighScore(scoreObj);
@@ -86,10 +85,10 @@ function getHighScoresTable(){
         highScores.forEach(function(item, index, arr){
             var tr = $('<tr>');
 
-            tr.append('<td>' + (Number.parseInt(index) + 1) + '<td>');
-            tr.append('<td>' + item.initials + '<td>');
-            tr.append('<td>' + item.category + '<td>');
-            tr.append('<td>' + item.score + '<td>');
+            tr.append('<td>' + (Number.parseInt(index) + 1) + '</td>');
+            tr.append('<td>' + item.initials + '</td>');
+            tr.append('<td>' + item.category + '</td>');
+            tr.append('<td>' + item.score + '</td>');
             tbl.append(tr);
         });
         return tbl;

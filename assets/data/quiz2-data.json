@@ -1,0 +1,217 @@
+{
+    "CSS": [
+        {
+            "question": "How can CSS be inegrated into an HTML page?",
+            "choices": {
+                "a1": { 
+                    "text": "within <head> using <style>",
+                    "data-yes-no": "no"
+                },
+                "a2": { 
+                    "text": "Linking a CSS File",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "With inline styling",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "All of these",
+                    "data-yes-no": "yes"
+                }
+            }
+        },
+        {
+            "question": "How can you style 'h3' and 'h2' elements with the same styling?",
+            "choices": {
+                "a1": { 
+                    "text": "h2, h3 {...}",
+                    "data-yes-no": "yes"
+                },
+                "a2": { 
+                    "text": ".h2.h3 {...}",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "#h2, #h3 {...}",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "None of these",
+                    "data-yes-no": "no"
+                }
+            }
+        },
+        {
+            "question": "What is an example of a Pseudo class",
+            "choices": {
+                "a1": { 
+                    "text": ":hover",
+                    "data-yes-no": "yes"
+                },
+                "a2": { 
+                    "text": ".pseudo-class",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "#class-name",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "None of these",
+                    "data-yes-no": "no"
+                }
+            }
+        },
+        {
+            "question": "What is an example of a Pseudo element?",
+            "choices": {
+                "a1": { 
+                    "text": ":focus",
+                    "data-yes-no": "no"
+                },
+                "a2": { 
+                    "text": "<pseudo>",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "::after",
+                    "data-yes-no": "yes"
+                },
+                "a4": { 
+                    "text": "None of these",
+                    "data-yes-no": "no"
+                }
+            }
+        }
+    ],
+
+    "Bootstrap": [
+        {
+            "question": "How many columns can a webpage be sectioned into?",
+            "choices": {
+                "a1": { 
+                    "text": "4",
+                    "data-yes-no": "no"
+                },
+                "a2": { 
+                    "text": "6",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "9",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "12",
+                    "data-yes-no": "yes"
+                }
+            }
+        },
+        {
+            "question": "How many breakpoints are there in Bootstrap 5?",
+            "choices": {
+                "a1": { 
+                    "text": "6",
+                    "data-yes-no": "yes"
+                },
+                "a2": { 
+                    "text": "5",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "4",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "None of these",
+                    "data-yes-no": "no"
+                }
+            }
+        },
+        {
+            "question": "Which attribute must be unique?",
+            "choices": {
+                "a1": { 
+                    "text": "class",
+                    "data-yes-no": "no"
+                },
+                "a2": { 
+                    "text": "id",
+                    "data-yes-no": "yes"
+                },
+                "a3": { 
+                    "text": "type",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "name",
+                    "data-yes-no": "no"
+                }
+            }
+        },
+        {
+            "question": "What is Bootstrap?",
+            "choices": {
+                "a1": { 
+                    "text": "A programming language",
+                    "data-yes-no": "no"
+                },
+                "a2": { 
+                    "text": "A type of shoe",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "A front-end framework",
+                    "data-yes-no": "yes"
+                },
+                "a4": { 
+                    "text": "A webpage",
+                    "data-yes-no": "no"
+                }
+            }
+        },
+        {
+            "question": "What are the types of layouts in Bootstrap?",
+            "choices": {
+                "a1": { 
+                    "text": "Fluid",
+                    "data-yes-no": "no"
+                },
+                "a2": { 
+                    "text": "Fixed",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "Both of these",
+                    "data-yes-no": "yes"
+                },
+                "a4": { 
+                    "text": "None of these",
+                    "data-yes-no": "no"
+                }
+            }
+        },
+        {
+            "question": "What kinds of lists are available in Bootstrap?",
+            "choices": {
+                "a1": { 
+                    "text": "Ordered lists",
+                    "data-yes-no": "no"
+                },
+                "a2": { 
+                    "text": "Unordered lists",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "Definitions lists",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "All of these",
+                    "data-yes-no": "yes"
+                }
+            }
+        }
+    ]
+}
