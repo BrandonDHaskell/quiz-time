@@ -1,6 +1,6 @@
 const instructionsText = "Welcome to Quiz Time.  Select the category below and start taking your quiz.  Your score is based on the number of questions you answer correctly and the total time left.  Questions are randomly displayed so chose wisely. ;)"
-const qTime = 5;                        // sets the timer to qTime seconds per question
-const qTimePenalty = 3;                 // reduces the timer by qTimePenalty when an incorrect
+const qTime = 8;                        // sets the timer to qTime seconds per question
+const qTimePenalty = 4;                 // reduces the timer by qTimePenalty when an incorrect
 
 var quizData = {};                      // JSON data
 var quizArray = [];                     // temp array of questions to quiz the user
@@ -330,6 +330,8 @@ function displayWelcomeScreen(){
     var btnDiv = getCatButtonDiv();
     var categories = Object.keys(quizData);
 
+    setTimer(0);
+    displayTimer();
     welcomeTitle.addClass("welcome-title");
 
     // Build category selection buttons

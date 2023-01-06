@@ -1,86 +1,78 @@
 {
     "JavaScript": [
         {
-            "question": "Question 1 here",
+            "question": "Is JavaScript an Object Oriented language?",
             "choices": {
                 "a1": { 
-                    "text": "Answer 1",
+                    "text": "Yes",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "text": "Answer 2",
-                    "data-yes-no": "no"
-                },
-                "a3": { 
-                    "text": "Answer 3",
-                    "data-yes-no": "no"
-                },
-                "a4": { 
-                    "text": "Answer 4",
+                    "text": "No",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "Question 2 here",
+            "question": "Where is the correct place to insert JavaScript on a webpage?",
             "choices": {
                 "a1": { 
-                    "text": "Answer 1",
+                    "text": "Inside <head>",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "Answer 2",
-                    "data-yes-no": "yes"
-                },
-                "a3": { 
-                    "text": "Answer 3",
+                    "text": "Inside <body>",
                     "data-yes-no": "no"
                 },
+                "a3": { 
+                    "text": "Inside <body> and <body>",
+                    "data-yes-no": "yes"
+                },
                 "a4": { 
-                    "text": "Answer 4",
+                    "text": "None of these",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "Question 3 here",
+            "question": "How do you declare a variable in JavaScript?",
             "choices": {
                 "a1": { 
-                    "text": "Answer 1",
+                    "text": "var x",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "Answer 2",
+                    "text": "let x",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "text": "Answer 3",
-                    "data-yes-no": "yes"
+                    "text": "const x",
+                    "data-yes-no": "no"
                 },
                 "a4": { 
-                    "text": "Answer 4",
-                    "data-yes-no": "no"
+                    "text": "All of these",
+                    "data-yes-no": "yes"
                 }
             }
         },
         {
-            "question": "Question 4 here",
+            "question": "If a variable is not assigned a value in JavaScript, what will its value be?",
             "choices": {
                 "a1": { 
-                    "text": "Answer 1",
+                    "text": "null",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "Answer 2",
-                    "data-yes-no": "no"
+                    "text": "undefined",
+                    "data-yes-no": "yes"
                 },
                 "a3": { 
-                    "text": "Answer 3",
+                    "text": "NaN",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "text": "Answer 4",
-                    "data-yes-no": "yes"
+                    "text": "typeof",
+                    "data-yes-no": "no"
                 }
             }
         }
@@ -88,85 +80,85 @@
 
     "HTML": [
         {
-            "question": "Question 1 here",
+            "question": "What HTML tag would you use to reference JavaScript?",
             "choices": {
                 "a1": { 
-                    "text": "Answer 1",
-                    "data-yes-no": "yes"
+                    "text": "<scripting>",
+                    "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "Answer 2",
+                    "text": "<javascript>",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "text": "Answer 3",
-                    "data-yes-no": "no"
+                    "text": "<script>",
+                    "data-yes-no": "yes"
                 },
                 "a4": { 
-                    "text": "Answer 4",
+                    "text": "<code>",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "Question 2 here",
+            "question": "What does HTML stand for?",
             "choices": {
                 "a1": { 
-                    "text": "Answer 1",
+                    "text": "High Tech Markup Language",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "Answer 2",
-                    "data-yes-no": "yes"
-                },
-                "a3": { 
-                    "text": "Answer 3",
+                    "text": "HyperText Markdown Language",
                     "data-yes-no": "no"
                 },
+                "a3": { 
+                    "text": "HyperText Markup Language",
+                    "data-yes-no": "yes"
+                },
                 "a4": { 
-                    "text": "Answer 4",
+                    "text": "None of these",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "Question 3 here",
+            "question": "Which attribute must be unique?",
             "choices": {
                 "a1": { 
-                    "text": "Answer 1",
+                    "text": "class",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "Answer 2",
-                    "data-yes-no": "no"
-                },
-                "a3": { 
-                    "text": "Answer 3",
+                    "text": "id",
                     "data-yes-no": "yes"
                 },
+                "a3": { 
+                    "text": "type",
+                    "data-yes-no": "no"
+                },
                 "a4": { 
-                    "text": "Answer 4",
+                    "text": "name",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "Question 4 here",
+            "question": "What tag is used to render images?",
             "choices": {
                 "a1": { 
-                    "text": "Answer 1",
+                    "text": "src",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "Answer 2",
+                    "text": "image",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "text": "Answer 3",
+                    "text": "href",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "text": "Answer 4",
+                    "text": "img",
                     "data-yes-no": "yes"
                 }
             }
