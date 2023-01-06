@@ -141,6 +141,12 @@ To update the quiz questions and categories to new categories, run the following
 getQuizData("./assets/data/quiz2-data.json", initQuizTime)
 ```
 
+You can also use this to see test data:
+```javascript
+getQuizData("./assets/data/dummy-data.json", initQuizTime)
+```
+
+
 To revert back to the default quiz data, run the following:
 ```javascript
 getQuizData("./assets/data/quiz-data.json", initQuizTime)
