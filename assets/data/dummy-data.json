@@ -1,206 +1,215 @@
 {
-    "JavaScript": [
+    "category1": [
         {
-            "question": "Is JavaScript an Object Oriented language?",
+            "question": "Question 1",
             "choices": {
                 "a1": { 
-                    "text": "Yes",
+                    "text": "Answer 1",
                     "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "text": "No",
+                    "text": "Answer 2",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "Answer 3",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "Answer 4",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "Where is the correct place to insert JavaScript on a webpage?",
+            "question": "Question 2",
             "choices": {
                 "a1": { 
-                    "text": "Inside <head>",
+                    "text": "Answer 1",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "Inside <body>",
-                    "data-yes-no": "no"
-                },
-                "a3": { 
-                    "text": "Inside <body> and <body>",
+                    "text": "Answer 2",
                     "data-yes-no": "yes"
                 },
+                "a3": { 
+                    "text": "Answer 3",
+                    "data-yes-no": "no"
+                },
                 "a4": { 
-                    "text": "None of these",
+                    "text": "Answer 4",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "How do you declare a variable in JavaScript?",
+            "question": "Question 3",
             "choices": {
                 "a1": { 
-                    "text": "var x",
+                    "text": "Answer 1",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "let x",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "text": "const x",
-                    "data-yes-no": "no"
+                    "text": "Answer 3",
+                    "data-yes-no": "yes"
                 },
                 "a4": { 
-                    "text": "All of these",
-                    "data-yes-no": "yes"
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "If a variable is not assigned a value in JavaScript, what will its value be?",
+            "question": "Question 4",
             "choices": {
                 "a1": { 
-                    "text": "null",
+                    "text": "Answer 1",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "undefined",
-                    "data-yes-no": "yes"
+                    "text": "Answer 2",
+                    "data-yes-no": "no"
                 },
                 "a3": { 
-                    "text": "NaN",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "text": "typeof",
-                    "data-yes-no": "no"
+                    "text": "Answer 4",
+                    "data-yes-no": "yes"
                 }
             }
         }
     ],
-
-    "HTML": [
+    "category2": [
         {
-            "question": "What HTML tag would you use to reference JavaScript?",
+            "question": "Question 1",
             "choices": {
                 "a1": { 
-                    "text": "<scripting>",
-                    "data-yes-no": "no"
+                    "text": "Answer 1",
+                    "data-yes-no": "yes"
                 },
                 "a2": { 
-                    "text": "<javascript>",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "text": "<script>",
-                    "data-yes-no": "yes"
+                    "text": "Answer 3",
+                    "data-yes-no": "no"
                 },
                 "a4": { 
-                    "text": "<code>",
+                    "text": "Answer 4",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "What does HTML stand for?",
+            "question": "Question 2",
             "choices": {
                 "a1": { 
-                    "text": "High Tech Markup Language",
+                    "text": "Answer 1",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "HyperText Markdown Language",
-                    "data-yes-no": "no"
-                },
-                "a3": { 
-                    "text": "HyperText Markup Language",
+                    "text": "Answer 2",
                     "data-yes-no": "yes"
                 },
+                "a3": { 
+                    "text": "Answer 3",
+                    "data-yes-no": "no"
+                },
                 "a4": { 
-                    "text": "None of these",
+                    "text": "Answer 4",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "Which attribute must be unique?",
+            "question": "Question 3",
             "choices": {
                 "a1": { 
-                    "text": "class",
+                    "text": "Answer 1",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "id",
-                    "data-yes-no": "yes"
-                },
-                "a3": { 
-                    "text": "type",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
+                "a3": { 
+                    "text": "Answer 3",
+                    "data-yes-no": "yes"
+                },
                 "a4": { 
-                    "text": "name",
+                    "text": "Answer 4",
                     "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "What tag is used to render images?",
+            "question": "Question 4",
             "choices": {
                 "a1": { 
-                    "text": "src",
+                    "text": "Answer 1",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "image",
+                    "text": "Answer 2",
                     "data-yes-no": "no"
                 },
                 "a3": { 
-                    "text": "href",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "text": "img",
+                    "text": "Answer 4",
                     "data-yes-no": "yes"
+                }
+            }
+        }
+    ],
+    "category3": [
+        {
+            "question": "Question 1",
+            "choices": {
+                "a1": { 
+                    "text": "Answer 1",
+                    "data-yes-no": "yes"
+                },
+                "a2": { 
+                    "text": "Answer 2",
+                    "data-yes-no": "no"
+                },
+                "a3": { 
+                    "text": "Answer 3",
+                    "data-yes-no": "no"
+                },
+                "a4": { 
+                    "text": "Answer 4",
+                    "data-yes-no": "no"
                 }
             }
         },
         {
-            "question": "What is the proper way to add a comment in HTML?",
+            "question": "Question 2",
             "choices": {
                 "a1": { 
-                    "text": "// Comment",
+                    "text": "Answer 1",
                     "data-yes-no": "no"
                 },
                 "a2": { 
-                    "text": "#Comment",
-                    "data-yes-no": "no"
+                    "text": "Answer 2",
+                    "data-yes-no": "yes"
                 },
                 "a3": { 
-                    "text": "/* Comment */",
+                    "text": "Answer 3",
                     "data-yes-no": "no"
                 },
                 "a4": { 
-                    "text": "<!-- Comment -->",
-                    "data-yes-no": "yes"
-                }
-            }
-        },
-        {
-            "question": "What could be used to store data on the client side?",
-            "choices": {
-                "a1": { 
-                    "text": "Window.localStorage",
-                    "data-yes-no": "no"
-                },
-                "a2": { 
-                    "text": "Window.sessionStorage",
-                    "data-yes-no": "no"
-                },
-                "a3": { 
-                    "text": "Both",
-                    "data-yes-no": "yes"
-                },
-                "a4": { 
-                    "text": "None of these",
+                    "text": "Answer 4",
                     "data-yes-no": "no"
                 }
             }
