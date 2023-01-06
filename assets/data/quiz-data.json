@@ -26,11 +26,11 @@
             "choices": {
                 "a1": { 
                     "text": "Answer 1",
-                    "data-yes-no": "yes"
+                    "data-yes-no": "no"
                 },
                 "a2": { 
                     "text": "Answer 2",
-                    "data-yes-no": "no"
+                    "data-yes-no": "yes"
                 },
                 "a3": { 
                     "text": "Answer 3",
@@ -47,7 +47,7 @@
             "choices": {
                 "a1": { 
                     "text": "Answer 1",
-                    "data-yes-no": "yes"
+                    "data-yes-no": "no"
                 },
                 "a2": { 
                     "text": "Answer 2",
@@ -55,7 +55,7 @@
                 },
                 "a3": { 
                     "text": "Answer 3",
-                    "data-yes-no": "no"
+                    "data-yes-no": "yes"
                 },
                 "a4": { 
                     "text": "Answer 4",
@@ -68,7 +68,7 @@
             "choices": {
                 "a1": { 
                     "text": "Answer 1",
-                    "data-yes-no": "yes"
+                    "data-yes-no": "no"
                 },
                 "a2": { 
                     "text": "Answer 2",
@@ -80,7 +80,7 @@
                 },
                 "a4": { 
                     "text": "Answer 4",
-                    "data-yes-no": "no"
+                    "data-yes-no": "yes"
                 }
             }
         }
@@ -113,11 +113,11 @@
             "choices": {
                 "a1": { 
                     "text": "Answer 1",
-                    "data-yes-no": "yes"
+                    "data-yes-no": "no"
                 },
                 "a2": { 
                     "text": "Answer 2",
-                    "data-yes-no": "no"
+                    "data-yes-no": "yes"
                 },
                 "a3": { 
                     "text": "Answer 3",
@@ -134,7 +134,7 @@
             "choices": {
                 "a1": { 
                     "text": "Answer 1",
-                    "data-yes-no": "yes"
+                    "data-yes-no": "no"
                 },
                 "a2": { 
                     "text": "Answer 2",
@@ -142,7 +142,7 @@
                 },
                 "a3": { 
                     "text": "Answer 3",
-                    "data-yes-no": "no"
+                    "data-yes-no": "yes"
                 },
                 "a4": { 
                     "text": "Answer 4",
@@ -155,7 +155,7 @@
             "choices": {
                 "a1": { 
                     "text": "Answer 1",
-                    "data-yes-no": "yes"
+                    "data-yes-no": "no"
                 },
                 "a2": { 
                     "text": "Answer 2",
@@ -167,7 +167,7 @@
                 },
                 "a4": { 
                     "text": "Answer 4",
-                    "data-yes-no": "no"
+                    "data-yes-no": "yes"
                 }
             }
         }
