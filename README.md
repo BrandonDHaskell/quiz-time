@@ -10,7 +10,7 @@ getQuizData("./assets/data/quiz2-data.json", initQuizTime)
 
 Test your knowledge with Quiz Time!
 
-See the [Deployed Site](https://bhaskell7901.github.io/quiz-time/)
+See the [Deployed Site](https://BrandonDHaskell.github.io/quiz-time/)
 
 
 ## Table of Contents
